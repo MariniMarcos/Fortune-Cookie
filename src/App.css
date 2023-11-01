@@ -1,0 +1,63 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #87CEEB; /* Iceblue */
+  align-content: center;
+  overflow-x: hidden;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+.app h1{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 40px;
+}
+
+.fortune-cookie {
+  position: relative;
+  width: 100vw;
+  height: 45vh;
+  cursor: pointer;
+  align-items: center;
+  align-content: center;
+}
+
+.fortune-cookie img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clock p{
+  width: 70vw;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
